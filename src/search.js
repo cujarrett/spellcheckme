@@ -1,7 +1,7 @@
 const puppeteer = require("puppeteer")
 
 module.exports.search = async (query) => {
-  const browser = await puppeteer.launch({args:["–no-sandbox","–disable-setuid-sandbox"]})
+  const browser = await puppeteer.launch({ args: ["–no-sandbox", "–disable-setuid-sandbox"] })
   const page = await browser.newPage()
   await page.goto(`https://www.google.com/search?q=${query}`)
   await page.title()
