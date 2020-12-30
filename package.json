@@ -1,0 +1,35 @@
+{
+  "name": "spellcheckme",
+  "version": "0.1.0",
+  "description": "Spellcheck CLI using headless Google's search engine to check a passed in word or words via command line, because I can't spell and I don't want to open a browser, again.",
+  "main": "./src/index.js",
+  "bin": "./src/index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cujarrett/spellcheckme.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "fix-lint": "eslint . --fix",
+    "test": "nyc --reporter=lcov tape test/**/*.js | tap-spec && nyc report",
+    "ci": "npm run lint && npm run test"
+  },
+  "keywords": [
+    "spellcheck",
+    "cli"
+  ],
+  "author": "Matt Jarrett",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "~4.1.0",
+    "puppeteer": "~5.5.0",
+    "yargs": "~15.4.1"
+  },
+  "devDependencies": {
+    "eslint": "~7.16.0",
+    "nyc": "~15.1.0",
+    "tap-spec": "~5.0.0",
+    "tape-async": "~2.3.0"
+  }
+}
