@@ -70,17 +70,17 @@ Example:
 ```md
 ## [Unreleased]
 
-## [0.2.1] - 2018-07-10
+## [0.2.1] - 2021-01-01
 ### Fixed
-- :bug: Twitter API key used in production
+- :bug: Integration with foo
 
-## [0.2.0] - 2018-07-08
+## [0.2.0] - 2020-12-31
 ### Added
-- :sparkle: Integration with Twitter
+- :sparkle: Integration with foo
 
-## [0.1.0] - 2018-07-06
+## [v1.0.0] - 2020-12-30
 ### Added
-- :sparkle: Integration with Bungie API
+- :tada: Initial app
 
 [Unreleased]: https://github.com/cujarrett/spellcheckme/compare/v0.2.1...master
 [0.2.1]: https://github.com/cujarrett/spellcheckme/compare/v0.2.0...v0.2.1
