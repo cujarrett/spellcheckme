@@ -8,7 +8,7 @@
 
 ## What is it?
 
-Spellcheck CLI using headless Google's search engine to check a passed in word or words via command line, because I can't spell and I don't want to open a browser, again.
+Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search engine via a headless browser.
 
 ![demo](./media/demo.gif)
 

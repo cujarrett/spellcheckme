@@ -1,7 +1,7 @@
 {
   "name": "spellcheckme",
   "version": "0.1.0",
-  "description": "Spellcheck CLI using headless Google's search engine to check a passed in word or words via command line, because I can't spell and I don't want to open a browser, again.",
+  "description": "Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search engine via a headless browser.",
   "main": "./src/index.js",
   "bin": "./src/index.js",
   "preferGlobal": true,
