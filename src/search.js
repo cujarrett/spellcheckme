@@ -1,6 +1,13 @@
 const puppeteer = require("puppeteer")
 
 module.exports.search = async (query) => {
+  if (query === "") {
+    return {
+      exitCode: 1,
+      message: "No word(s) given to spellcheck 🙃\n\nspellcheck --help"
+    }
+  }
+
   const browser = await puppeteer.launch({ args: ["–no-sandbox", "–disable-setuid-sandbox"] })
   const page = await browser.newPage()
   await page.goto(`https://www.google.com/search?q=${query}`)
@@ -16,7 +23,7 @@ module.exports.search = async (query) => {
     await browser.close()
     return {
       exitCode: 1,
-      message: `${query} 👎 ${value} 👍`
+      message: `${query}👎 ${value} 👍`
     }
   } else if (didYouMean) {
     /* istanbul ignore next */
@@ -24,7 +31,7 @@ module.exports.search = async (query) => {
     await browser.close()
     return {
       exitCode: 1,
-      message: `${query} 👎 ${value} 👍`
+      message: `${query}👎 ${value} 👍`
     }
   } else if (noResult) {
     await browser.close()
