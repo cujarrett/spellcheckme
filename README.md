@@ -12,6 +12,21 @@ Spellcheck CLI to quickly check the spelling of a word or two using the power of
 
 ![demo](./media/demo.gif)
 
+## Use
+
+`spellcheckme` is best used as a globally installed Node package.
+
+Install
+```sh
+npm install spellcheckme -g
+```
+
+Example Use
+```sh
+spellcheckme JavaScriptss
+JavaScriptss  👎 JavaScript 👍
+```
+
 ## Questions & Contact
 Feel free to join the [project Discord](https://discord.gg/uuQDgzhbrd) if you have questions.
 
