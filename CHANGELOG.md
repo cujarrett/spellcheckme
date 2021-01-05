@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/cujarrett/spellcheckme/compare/v0.2.0...v0.2.1) (2021-01-05)
+
+
+### Bug Fixes
+
+* **semantic-release:** changelog title ([52657f7](https://github.com/cujarrett/spellcheckme/commit/52657f7ff785e7a3e702e721dccf22bf306505b2))
+
 # [v0.2.0](https://github.com/cujarrett/spellcheckme/compare/v0.1.3...v0.2.0) (2021-01-05)
 
 # [0.2.0](https://github.com/cujarrett/spellcheckme/compare/v0.1.3...v0.2.0) (2021-01-05)
