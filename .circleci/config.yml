@@ -27,11 +27,11 @@ jobs:
           command: npm audit --audit-level=moderate
       - run:
           name: Lint Code
-          command: npm install && npm run lint
+          command: npm run lint
       - run:
           image: circleci/node:latest-browsers
           name: Run Tests
-          command: npm install && npm run test
+          command: npm run test
 
   release:
     docker:
