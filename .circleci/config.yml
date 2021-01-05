@@ -24,7 +24,7 @@ jobs:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Audit Dependencies
-          command: npm audit
+          command: npm audit --audit-level=moderate
       - run:
           name: Lint Code
           command: npm run lint
@@ -33,17 +33,29 @@ jobs:
           name: Run Tests
           command: npm run test
 
-  deploy:
+  release:
     docker:
       - image: circleci/node:lts
+    environment:
+      GIT_AUTHOR_NAME: cujarrett
+      GIT_AUTHOR_EMAIL: cujarrett@gmail.com
+      GIT_COMMITTER_NAME: cujarrett
+      GIT_COMMITTER_EMAIL: cujarrett@gmail.com
+    description: "semantic-release"
+    parameters:
+      dry-run:
+        description: "semantic-release --dry-run flag"
+        default: false
+        type: boolean
     steps:
       - checkout
-      - run:
-          name: Authenticate with registry
-          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > .npmrc
-      - run:
-          name: Publish package
-          command: npm publish
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run: npx semantic-release --branch $CIRCLE_BRANCH --dry-run=<< parameters.dry-run >>
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - node_modules
 
 workflows:
   version: 2
@@ -53,9 +65,19 @@ workflows:
       - test:
           requires:
             - build
-      - deploy:
+      - release:
+          name: release-dry-run
+          requires:
+            - test
+          dry-run: true
+          filters:
+            branches:
+              ignore:
+                - main
+      - release:
           requires:
             - test
           filters:
             branches:
-              only: main
+              only:
+                - main
