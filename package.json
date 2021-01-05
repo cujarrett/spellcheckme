@@ -17,6 +17,9 @@
     "ci": "npm run lint && npm run test",
     "semantic-release": "semantic-release"
   },
+  "release": {
+    "branches": [ "master" ]
+  },
   "contributors": [
     {
       "name": "Matt Jarrett",
