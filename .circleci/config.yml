@@ -62,10 +62,13 @@ workflows:
   cicd:
     jobs:
       - build
+      - test:
+          requires:
+            - build
       - release:
           name: release-dry-run
           requires:
-            - build
+            - test
           dry-run: true
           filters:
             branches:
@@ -73,7 +76,7 @@ workflows:
                 - main
       - release:
           requires:
-            - build
+            - test
           filters:
             branches:
               only:
