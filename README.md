@@ -1,4 +1,4 @@
-![logo](./media/logo.png)
+![logo](https://user-images.githubusercontent.com/16245634/103610862-b02b3b80-4ee6-11eb-8a9e-677b84a1aa03.png)
 
 <p align="center">
   <a href="https://circleci.com/gh/cujarrett/spellcheckme/tree/main"><img alt="Circle CI" src="https://circleci.com/gh/cujarrett/spellcheckme/tree/main.svg?style=svg"></a>
@@ -12,7 +12,7 @@
 
 Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search engine via a headless browser.
 
-![demo](./media/demo.gif)
+![demo](https://user-images.githubusercontent.com/16245634/103610858-adc8e180-4ee6-11eb-92c6-54d915ed7186.gif)
 
 ## Use
 
