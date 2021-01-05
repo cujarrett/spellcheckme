@@ -18,7 +18,7 @@
     "semantic-release": "semantic-release"
   },
   "release": {
-    "branches": ["master"]
+    "branches": ["main"]
   },
   "contributors": [
     {
