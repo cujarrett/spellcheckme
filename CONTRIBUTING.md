@@ -8,7 +8,8 @@ A great place to jump in are issues labeled
 [good first issue](https://github.com/cujarrett/spellcheckme/labels/good%20first%20issue).
 
 ## Chat
-Feel free to join the [project Discord](https://discord.gg/uuQDgzhbrd) if you have questions.
+Feel free to join the [project Discord](https://discord.gg/uuQDgzhbrd) if you
+have questions.
 
 ## Pull Request Checklist
 - [ ] - Ensure 100% code coverage with thoughtful unit and integration tests
@@ -16,8 +17,8 @@ Feel free to join the [project Discord](https://discord.gg/uuQDgzhbrd) if you ha
 - [ ] - Passing CI pipeline
 
 ## Developer Setup
-Setup and use requires [Git](https://git-scm.com/), [Node JS](https://nodejs.org/en/), and a text
-editor such as [VS Code](https://code.visualstudio.com/).
+Setup and use requires [Git](https://git-scm.com/), [Node JS](https://nodejs.org/en/)
+, and a text editor such as [VS Code](https://code.visualstudio.com/).
 
 This project is built for Node 8 and up but we develop using Node LTS and npm.
 You can check your node version with `node -v` and your npm version with `npm
@@ -38,7 +39,8 @@ npm install
 
 #### Run Linting
 
-Finds problematic patterns or code that doesn’t adhere to certain style guidelines
+Finds problematic patterns or code that doesn’t adhere to certain style
+guidelines
 
 ```sh
 npm run lint
@@ -70,14 +72,14 @@ npm run ci
 ### Commit Message Guidelines
 
 This project follows the [Conventional
-Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.3/) specification toaid in automated
-releases and change log generation.
-[Commitlint](https://github.com/conventional-changelog/commitlint) is enabled and ran as a
-`commit-msg` hook to enforce the commit format.  [Commitizen](http://commitizen.github.io/cz-cli/)
-can be used to prompt through any requirements at commit time `npm run commit` (or `git cz` if
-Commitizen is installed globally).
+Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.3/) specification to
+aid in automated releases and change log generation. [Commitlint](https://github.com/conventional-changelog/commitlint)
+is enabled and ran as a `commit-msg` hook to enforce the commit format. [Commitizen](http://commitizen.github.io/cz-cli/)
+can be used to prompt through any requirements at commit time `npm run commit`
+(or `git cz` if Commitizen is installed globally).
 
-In short, if a commit will be fixing a bug, prefix the commit message with `fix:`
+In short, if a commit will be fixing a bug, prefix the commit message with
+`fix:`
 
 ```bash
 fix: my bug fix
@@ -89,7 +91,6 @@ If a commit will be adding a feature, prefix the commit message with `feat:`
 feat: my new feature
 ```
 
-Commits with `fix:` prefix will show up in the generated changelog as bullets under the `Bug Fixes:`
-section, and `feat:` prefixed messages will show under the `Features:` section. For more on the
-available prefixes/rules, see
-[here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#rules).
+Commits with `fix:` prefix will show up in the generated changelog as bullets
+under the `Bug Fixes:` section, and `feat:` prefixed messages will show under
+the `Features:` section. For more on the available prefixes/rules, see [here](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#rules).
