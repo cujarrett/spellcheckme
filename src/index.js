@@ -2,15 +2,22 @@
 const chalk = require("chalk")
 const { getInput } = require("./read-input.js")
 const { search } = require("./search.js")
-const { version } = require("../package")
+const updateNotifier = require("update-notifier")
+const pkg = require("../package.json")
 
 const red = "f44336"
 const green = "00c853"
 const orange = "ff9800"
 
+// check if a new version of spellcheckme is available and print an update notification
+const notifier = updateNotifier({ pkg })
+if (notifier.update && notifier.update.latest !== pkg.version) {
+  notifier.notify({ isGlobal: true })
+}
+
 const yargs = require("yargs")
   .alias("v", "version")
-  .version(version)
+  .version(pkg.version)
   .describe("v", "show version information")
   .alias("h", "help")
   .help("help")
