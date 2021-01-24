@@ -10,13 +10,17 @@
 
 ## What is it?
 
-Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search engine via a headless browser.
+Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search
+engine via a headless browser.
 
 ![demo](https://user-images.githubusercontent.com/16245634/103610858-adc8e180-4ee6-11eb-92c6-54d915ed7186.gif)
 
 ## Use
 
-`spellcheckme` is best used as a globally installed Node package.
+`spellcheckme` is best used as a globally installed Node package, and as such you'll need to have
+[Node](https://nodejs.org/en/) installed. If you're on a Mac, I'd suggest using [Homebrew](https://brew.sh/)
+for installing Node. Once you have Node installed, you can install and use `spellcheckme` as seen
+below.
 
 Install
 ```sh
