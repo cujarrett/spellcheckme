@@ -7,4 +7,4 @@ updates:
     time: "11:00"
   commit-message:
       prefix: "fix"
-      include_scope: true
+      include: "scope"
