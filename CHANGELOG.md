@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.2](https://github.com/cujarrett/spellcheckme/compare/v0.3.1...v0.3.2) (2021-02-04)
+
+
+### Bug Fixes
+
+* adjusts commit message config ([4dc0241](https://github.com/cujarrett/spellcheckme/commit/4dc02415004354d130e3a3859dae18c6de461af6))
+* adjusts commit message config ([6107f2a](https://github.com/cujarrett/spellcheckme/commit/6107f2a0b2f3a7fd0d05e742f121672ab5debbce))
+* commit message config ([eb57bd1](https://github.com/cujarrett/spellcheckme/commit/eb57bd151e5d3173a21bb9ea957ede5b497df278))
+
 ## [0.3.1](https://github.com/cujarrett/spellcheckme/compare/v0.3.0...v0.3.1) (2021-01-24)
 
 
