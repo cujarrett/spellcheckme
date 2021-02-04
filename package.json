@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "~4.1.0",
-    "puppeteer": "~5.5.0",
+    "puppeteer": "~7.0.0",
     "update-notifier": "~5.0.1",
     "yargs": "~16.2.0"
   },
