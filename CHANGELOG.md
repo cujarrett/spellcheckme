@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.3](https://github.com/cujarrett/spellcheckme/compare/v0.3.2...v0.3.3) (2021-02-05)
+
+
+### Bug Fixes
+
+* **deps:** bump puppeteer from 7.0.0 to 7.0.1 ([ffaa964](https://github.com/cujarrett/spellcheckme/commit/ffaa964696bc0c86c89bf4e64113f8891e55b215))
+
 ## [0.3.2](https://github.com/cujarrett/spellcheckme/compare/v0.3.1...v0.3.2) (2021-02-04)
 
 
