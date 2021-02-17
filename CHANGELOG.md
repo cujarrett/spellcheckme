@@ -3,6 +3,14 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.9](https://github.com/cujarrett/spellcheckme/compare/v0.3.8...v0.3.9) (2021-02-17)
+
+
+### Bug Fixes
+
+* removes did you mean tests ([db7bb97](https://github.com/cujarrett/spellcheckme/commit/db7bb971d6a516cc173bfc38debe5fd1162e8770))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([570d4ec](https://github.com/cujarrett/spellcheckme/commit/570d4ec95759eb8ba68dfadbc102c04a948f4b21))
+
 ## [0.3.8](https://github.com/cujarrett/spellcheckme/compare/v0.3.7...v0.3.8) (2021-02-12)
 
 
