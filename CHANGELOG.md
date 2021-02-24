@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.4.0](https://github.com/cujarrett/spellcheckme/compare/v0.3.12...v0.4.0) (2021-02-24)
+
+
+### Features
+
+* updates dependabot frequency ([12c07cf](https://github.com/cujarrett/spellcheckme/commit/12c07cf74cc74a0396b12c70f84c01f3b6d5ab97))
+
 ## [0.3.12](https://github.com/cujarrett/spellcheckme/compare/v0.3.11...v0.3.12) (2021-02-24)
 
 
