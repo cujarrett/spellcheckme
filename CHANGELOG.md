@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.3.11](https://github.com/cujarrett/spellcheckme/compare/v0.3.10...v0.3.11) (2021-02-24)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 11.0.0 to 12.0.0 ([31090ec](https://github.com/cujarrett/spellcheckme/commit/31090ecae5290f13c443add5344cd68633307783))
+
 ## [0.3.10](https://github.com/cujarrett/spellcheckme/compare/v0.3.9...v0.3.10) (2021-02-24)
 
 
