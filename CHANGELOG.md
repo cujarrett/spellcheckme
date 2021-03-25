@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+# [0.5.0](https://github.com/cujarrett/spellcheckme/compare/v0.4.1...v0.5.0) (2021-03-25)
+
+
+### Features
+
+* adds CODEOWNERS ([#55](https://github.com/cujarrett/spellcheckme/issues/55)) ([17bafaa](https://github.com/cujarrett/spellcheckme/commit/17bafaa3a5f0ec39538663560ab651dda7a8ab37))
+
 ## [0.4.1](https://github.com/cujarrett/spellcheckme/compare/v0.4.0...v0.4.1) (2021-03-09)
 
 
