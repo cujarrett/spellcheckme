@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.4](https://github.com/cujarrett/spellcheckme/compare/v0.5.3...v0.5.4) (2021-07-12)
+
+
+### Bug Fixes
+
+* adds missing husky script ([#78](https://github.com/cujarrett/spellcheckme/issues/78)) ([7c06f75](https://github.com/cujarrett/spellcheckme/commit/7c06f754a220f7f9972df067e80a65e8fcfb2eac))
+
 ## [0.5.3](https://github.com/cujarrett/spellcheckme/compare/v0.5.2...v0.5.3) (2021-07-12)
 
 
