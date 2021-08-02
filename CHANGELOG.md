@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.9](https://github.com/cujarrett/spellcheckme/compare/v0.5.8...v0.5.9) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps:** bump chalk from 4.1.1 to 4.1.2 ([#83](https://github.com/cujarrett/spellcheckme/issues/83)) ([0ba7a8f](https://github.com/cujarrett/spellcheckme/commit/0ba7a8fd527a3233e2c3613d1a2197bbdc530bf2))
+
 ## [0.5.8](https://github.com/cujarrett/spellcheckme/compare/v0.5.7...v0.5.8) (2021-08-02)
 
 
