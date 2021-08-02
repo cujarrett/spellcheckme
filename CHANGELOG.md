@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.8](https://github.com/cujarrett/spellcheckme/compare/v0.5.7...v0.5.8) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/config-conventional ([#82](https://github.com/cujarrett/spellcheckme/issues/82)) ([3b37a8e](https://github.com/cujarrett/spellcheckme/commit/3b37a8e262805675a469220ee912357035afc448))
+
 ## [0.5.7](https://github.com/cujarrett/spellcheckme/compare/v0.5.6...v0.5.7) (2021-08-02)
 
 
