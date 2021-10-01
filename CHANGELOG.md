@@ -3,6 +3,140 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.21](https://github.com/cujarrett/spellcheckme/compare/v0.5.20...v0.5.21) (2021-09-23)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/github from 8.0.0 to 8.0.1 ([#98](https://github.com/cujarrett/spellcheckme/issues/98)) ([b6a9749](https://github.com/cujarrett/spellcheckme/commit/b6a9749a3a7d90ba3e700df012a2cb4a4bccb188))
+* **deps:** bump yargs from 17.1.1 to 17.2.0 ([#99](https://github.com/cujarrett/spellcheckme/issues/99)) ([213f212](https://github.com/cujarrett/spellcheckme/commit/213f212b4fca55d4f1bc0c555a60323dea2021dd))
+
+## [0.5.20](https://github.com/cujarrett/spellcheckme/compare/v0.5.19...v0.5.20) (2021-09-23)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/changelog from 5.0.1 to 6.0.0 ([#97](https://github.com/cujarrett/spellcheckme/issues/97)) ([97d209c](https://github.com/cujarrett/spellcheckme/commit/97d209c6adbf52c182c160cf5f564a05495cacce))
+
+## [0.5.19](https://github.com/cujarrett/spellcheckme/compare/v0.5.18...v0.5.19) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps:** bump puppeteer from 10.2.0 to 10.4.0 ([#96](https://github.com/cujarrett/spellcheckme/issues/96)) ([a13480e](https://github.com/cujarrett/spellcheckme/commit/a13480ea6a437a65b07172417ce7ae31aa30bb34))
+
+## [0.5.18](https://github.com/cujarrett/spellcheckme/compare/v0.5.17...v0.5.18) (2021-09-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/exec from 5.0.0 to 6.0.1 ([#95](https://github.com/cujarrett/spellcheckme/issues/95)) ([01bd165](https://github.com/cujarrett/spellcheckme/commit/01bd165205167490ed965d5284e578c0fc94d3a7))
+
+## [0.5.17](https://github.com/cujarrett/spellcheckme/compare/v0.5.16...v0.5.17) (2021-09-21)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/npm from 7.1.3 to 8.0.0 ([#91](https://github.com/cujarrett/spellcheckme/issues/91)) ([0b550d2](https://github.com/cujarrett/spellcheckme/commit/0b550d2f6ea7fd22d45dac3e56ca75a734acf9a8))
+
+## [0.5.16](https://github.com/cujarrett/spellcheckme/compare/v0.5.15...v0.5.16) (2021-09-21)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/github from 7.2.3 to 8.0.0 ([#92](https://github.com/cujarrett/spellcheckme/issues/92)) ([0084f99](https://github.com/cujarrett/spellcheckme/commit/0084f99f67d1b72b05f3cfea29ce32aa38e81433))
+
+## [0.5.15](https://github.com/cujarrett/spellcheckme/compare/v0.5.14...v0.5.15) (2021-09-21)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/commit-analyzer ([#93](https://github.com/cujarrett/spellcheckme/issues/93)) ([483895e](https://github.com/cujarrett/spellcheckme/commit/483895ee786ff09f9f71403000c73b5a72ca7f58))
+
+## [0.5.14](https://github.com/cujarrett/spellcheckme/compare/v0.5.13...v0.5.14) (2021-09-21)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/release-notes-generator ([#94](https://github.com/cujarrett/spellcheckme/issues/94)) ([e961aa9](https://github.com/cujarrett/spellcheckme/commit/e961aa97d143d2a7706588705ad4d8e86e3e8541))
+
+## [0.5.13](https://github.com/cujarrett/spellcheckme/compare/v0.5.12...v0.5.13) (2021-09-20)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @semantic-release/git from 9.0.1 to 10.0.0 ([#90](https://github.com/cujarrett/spellcheckme/issues/90)) ([b13be1c](https://github.com/cujarrett/spellcheckme/commit/b13be1c7d7915af4c85c627a74419c0107e6d8c8))
+
+## [0.5.12](https://github.com/cujarrett/spellcheckme/compare/v0.5.11...v0.5.12) (2021-09-18)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump semantic-release from 17.4.7 to 18.0.0 ([#89](https://github.com/cujarrett/spellcheckme/issues/89)) ([6a88d27](https://github.com/cujarrett/spellcheckme/commit/6a88d27bbaf75aa00694174c9dd3bac137b74253))
+
+## [0.5.11](https://github.com/cujarrett/spellcheckme/compare/v0.5.10...v0.5.11) (2021-09-13)
+
+
+### Bug Fixes
+
+* updates dependencies ([dd95538](https://github.com/cujarrett/spellcheckme/commit/dd955387aa303d8a2cdcc1bb7835e8daf7b5ca3b))
+
+## [0.5.10](https://github.com/cujarrett/spellcheckme/compare/v0.5.9...v0.5.10) (2021-08-02)
+
+
+### Bug Fixes
+
+* moves dependency updates from fix to deps ([a4fd4fb](https://github.com/cujarrett/spellcheckme/commit/a4fd4fb7421130aa7d0f0acc8c21011de264161d))
+
+## [0.5.9](https://github.com/cujarrett/spellcheckme/compare/v0.5.8...v0.5.9) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps:** bump chalk from 4.1.1 to 4.1.2 ([#83](https://github.com/cujarrett/spellcheckme/issues/83)) ([0ba7a8f](https://github.com/cujarrett/spellcheckme/commit/0ba7a8fd527a3233e2c3613d1a2197bbdc530bf2))
+
+## [0.5.8](https://github.com/cujarrett/spellcheckme/compare/v0.5.7...v0.5.8) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/config-conventional ([#82](https://github.com/cujarrett/spellcheckme/issues/82)) ([3b37a8e](https://github.com/cujarrett/spellcheckme/commit/3b37a8e262805675a469220ee912357035afc448))
+
+## [0.5.7](https://github.com/cujarrett/spellcheckme/compare/v0.5.6...v0.5.7) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 7.31.0 to 7.32.0 ([#81](https://github.com/cujarrett/spellcheckme/issues/81)) ([1408f91](https://github.com/cujarrett/spellcheckme/commit/1408f912819212692df828bb484ae452c1824a5c))
+
+## [0.5.6](https://github.com/cujarrett/spellcheckme/compare/v0.5.5...v0.5.6) (2021-08-02)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 12.1.4 to 13.1.0 ([#80](https://github.com/cujarrett/spellcheckme/issues/80)) ([1d7fa94](https://github.com/cujarrett/spellcheckme/commit/1d7fa947ee7dc9b5fc20e0bd0bf02ede660b2e79))
+
+## [0.5.5](https://github.com/cujarrett/spellcheckme/compare/v0.5.4...v0.5.5) (2021-07-22)
+
+
+### Bug Fixes
+
+* migrate to ava for tests ([#79](https://github.com/cujarrett/spellcheckme/issues/79)) ([0d51f6f](https://github.com/cujarrett/spellcheckme/commit/0d51f6f557eab09fdaeb7cb8bf0fc74489714983))
+
+## [0.5.4](https://github.com/cujarrett/spellcheckme/compare/v0.5.3...v0.5.4) (2021-07-12)
+
+
+### Bug Fixes
+
+* adds missing husky script ([#78](https://github.com/cujarrett/spellcheckme/issues/78)) ([7c06f75](https://github.com/cujarrett/spellcheckme/commit/7c06f754a220f7f9972df067e80a65e8fcfb2eac))
+
+## [0.5.3](https://github.com/cujarrett/spellcheckme/compare/v0.5.2...v0.5.3) (2021-07-12)
+
+
+### Bug Fixes
+
+* updates dependencies ([#77](https://github.com/cujarrett/spellcheckme/issues/77)) ([7d8d0bf](https://github.com/cujarrett/spellcheckme/commit/7d8d0bf40b4e0936e7b31fd36cf09922da7e0a8d))
+
 ## [0.5.2](https://github.com/cujarrett/spellcheckme/compare/v0.5.1...v0.5.2) (2021-05-08)
 
 
