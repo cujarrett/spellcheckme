@@ -1,6 +1,6 @@
 {
   "name": "spellcheckme",
-  "version": "0.5.21",
+  "version": "0.6.0",
   "description": "Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search engine via a headless browser.",
   "main": "./src/index.js",
   "bin": "./src/index.js",
@@ -51,8 +51,7 @@
     "cz-conventional-changelog": "~3.3.0",
     "eslint": "~7.32.0",
     "husky": "~7.0.2",
-    "nyc": "~15.1.0",
-    "semantic-release": "~18.0.0"
+    "nyc": "~15.1.0"
   },
   "husky": {
     "hooks": {
