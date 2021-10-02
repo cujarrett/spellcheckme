@@ -51,8 +51,7 @@
     "cz-conventional-changelog": "~3.3.0",
     "eslint": "~7.32.0",
     "husky": "~7.0.2",
-    "nyc": "~15.1.0",
-    "semantic-release": "~18.0.0"
+    "nyc": "~15.1.0"
   },
   "husky": {
     "hooks": {
