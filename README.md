@@ -1,7 +1,7 @@
 ![logo](https://user-images.githubusercontent.com/16245634/103610862-b02b3b80-4ee6-11eb-8a9e-677b84a1aa03.png)
 
 <p align="center">
-  <a href="https://circleci.com/gh/cujarrett/spellcheckme/tree/main"><img alt="Circle CI" src="https://circleci.com/gh/cujarrett/spellcheckme/tree/main.svg?style=svg"></a>
+  <a href="https://github.com/cujarrett/spellcheckme/actions"><img alt="CI/CD" src="https://github.com/cujarrett/spellcheckme/actions/workflows/release.yml/badge.svg"></a>
   <a href="https://www.npmjs.com/package/spellcheckme"><img alt="npm" src="https://img.shields.io/npm/dt/spellcheckme.svg"></a>
   <a href="https://discord.gg/jAA5U52"><img alt="Chat on Discord" src="https://img.shields.io/discord/460598989939802115?label=Discord"></a>
   <a href="https://github.com/semantic-release/semantic-release"><img alt="Project uses semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg"></a>
