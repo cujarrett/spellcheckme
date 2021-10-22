@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.6](https://github.com/cujarrett/spellcheckme/compare/v0.6.5...v0.6.6) (2021-10-22)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump husky from 7.0.2 to 7.0.4 ([#110](https://github.com/cujarrett/spellcheckme/issues/110)) ([9e18796](https://github.com/cujarrett/spellcheckme/commit/9e1879679aa0cb2f098a9e87753e2cd31013c7ce))
+
 ## [0.6.5](https://github.com/cujarrett/spellcheckme/compare/v0.6.4...v0.6.5) (2021-10-21)
 
 
