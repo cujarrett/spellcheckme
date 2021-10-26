@@ -3,6 +3,13 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.6.7](https://github.com/cujarrett/spellcheckme/compare/v0.6.6...v0.6.7) (2021-10-26)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 8.0.1 to 8.1.0 ([#111](https://github.com/cujarrett/spellcheckme/issues/111)) ([1050bda](https://github.com/cujarrett/spellcheckme/commit/1050bdab32c1424f991509840b3653723727274a))
+
 ## [0.6.6](https://github.com/cujarrett/spellcheckme/compare/v0.6.5...v0.6.6) (2021-10-22)
 
 
