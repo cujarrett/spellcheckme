@@ -31,27 +31,26 @@
   "author": "Matt Jarrett",
   "license": "MIT",
   "dependencies": {
-    "chalk": "~4.1.2",
-    "puppeteer": "~10.4.0",
+    "chalk": "~5.0.0",
+    "puppeteer": "~12.0.0",
     "update-notifier": "~5.1.0",
     "yargs": "~17.2.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "~14.1.0",
-    "@commitlint/config-conventional": "~14.1.0",
-    "@semantic-release/changelog": "~6.0.0",
-    "@semantic-release/commit-analyzer": "~9.0.1",
-    "@semantic-release/exec": "~6.0.1",
-    "@semantic-release/git": "~10.0.0",
-    "@semantic-release/github": "~8.0.1",
-    "@semantic-release/npm": "~8.0.0",
-    "@semantic-release/release-notes-generator": "~10.0.2",
+    "@commitlint/cli": "~15.0.0",
+    "@commitlint/config-conventional": "~15.0.0",
+    "@semantic-release/changelog": "~6.0.1",
+    "@semantic-release/commit-analyzer": "~9.0.2",
+    "@semantic-release/exec": "~6.0.2",
+    "@semantic-release/git": "~10.0.1",
+    "@semantic-release/github": "~8.0.2",
+    "@semantic-release/npm": "~8.0.3",
+    "@semantic-release/release-notes-generator": "~10.0.3",
     "ava": "~3.15.0",
     "commitizen": "~4.2.4",
     "cz-conventional-changelog": "~3.3.0",
-    "eslint": "~8.1.0",
-    "husky": "~7.0.2",
-    "nyc": "~15.1.0"
+    "eslint": "~8.3.0",
+    "husky": "~7.0.4"
   },
   "husky": {
     "hooks": {
