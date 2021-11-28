@@ -1,10 +1,10 @@
-const puppeteer = require("puppeteer")
+import puppeteer from "puppeteer"
 
-module.exports.search = async (query) => {
+export const search = async (query) => {
   if (query === "") {
     return {
       exitCode: 1,
-      message: "No word(s) given to spellcheck 🙃\n\nspellcheck --help"
+      message: "No word(s) given to spellcheck 🙃\n\nspellcheckme --help"
     }
   }
 

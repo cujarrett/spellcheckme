@@ -1,5 +1,5 @@
-const test = require("ava")
-const { search } = require("../src/search.js")
+import test from "ava"
+import { search } from "../src/search.js"
 
 test("Integration - valid spelling search", async (assert) => {
   const response = await search("JavaScript")
@@ -24,5 +24,5 @@ test("Integration - empty search", async (assert) => {
   const response = await search("")
   assert.is(response.exitCode, 1)
   // eslint-disable-next-line max-len
-  assert.is(response.message, "No word(s) given to spellcheck 🙃\n\nspellcheck --help")
+  assert.is(response.message, "No word(s) given to spellcheck 🙃\n\nspellcheckme --help")
 })
