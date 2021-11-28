@@ -1,4 +1,41 @@
 # Changelog
+All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+# [1.0.0](https://github.com/cujarrett/spellcheckme/compare/v0.7.0...v1.0.0) (2021-11-28)
+
+
+### Bug Fixes
+
+* semantic-release esm syntax ([#120](https://github.com/cujarrett/spellcheckme/issues/120)) ([6c19e8d](https://github.com/cujarrett/spellcheckme/commit/6c19e8d0ba5e01e3da9401764ac80d91804ebd8f))
+
+
+### Features
+
+* Migrate from CommonJS to ESM ([#119](https://github.com/cujarrett/spellcheckme/issues/119)) ([b667c96](https://github.com/cujarrett/spellcheckme/commit/b667c962425eced3a5479da0ee8b4443c2ffc242))
+
+
+### BREAKING CHANGES
+
+* Require Node.js 12
+
+This package is now pure ESM
+
+* chore: updates dependencies
+chalk                                       ~4.1.2  →   ~5.0.0
+puppeteer                                  ~10.4.0  →  ~12.0.0
+@commitlint/cli                            ~14.1.0  →  ~15.0.0
+@commitlint/config-conventional            ~14.1.0  →  ~15.0.0
+@semantic-release/changelog                 ~6.0.0  →   ~6.0.1
+@semantic-release/commit-analyzer           ~9.0.1  →   ~9.0.2
+@semantic-release/exec                      ~6.0.1  →   ~6.0.2
+@semantic-release/git                      ~10.0.0  →  ~10.0.1
+@semantic-release/github                    ~8.0.1  →   ~8.0.2
+@semantic-release/npm                       ~8.0.0  →   ~8.0.3
+@semantic-release/release-notes-generator  ~10.0.2  →  ~10.0.3
+eslint                                      ~8.1.0  →   ~8.3.0
+husky                                       ~7.0.2  →   ~7.0.4
+
+# Changelog
 All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
