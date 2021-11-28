@@ -1,4 +1,4 @@
-module.exports.getInput = async () => {
+export const getInput = async () => {
   const argInput = process.argv.slice(2).join(" ")
 
   const pipedInputPromise = new Promise((resolve) => {
