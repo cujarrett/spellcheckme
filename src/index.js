@@ -12,8 +12,11 @@ const app = async () => {
   const green = "00c853"
   const orange = "ff9800"
 
+  const pkg = await JSON.parse(await fs.readFile("package.json"))
+
   yargs(hideBin(process.argv))
     .wrap(null)
+    .version(pkg.version)
     .alias("v", "version")
     .alias("h", "help")
     .showHelpOnFail(true)
@@ -25,7 +28,6 @@ const app = async () => {
     .example("spellcheckme jjavascript", `${chalk.hex(red)("jjavascript 👎")} ${chalk.hex(green)("javascript 👍")}`)
     .parse()
 
-  const pkg = await JSON.parse(await fs.readFile("package.json"))
   // check if a new version of spellcheckme is available and print an update notification
   const notifier = updateNotifier({ pkg })
   if (notifier.update && notifier.update.latest !== pkg.version) {
