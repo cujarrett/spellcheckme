@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3](https://github.com/cujarrett/spellcheckme/compare/v1.0.2...v1.0.3) (2021-11-29)
+
+
+### Bug Fixes
+
+* esm changes ([#124](https://github.com/cujarrett/spellcheckme/issues/124)) ([b71c9be](https://github.com/cujarrett/spellcheckme/commit/b71c9be4c40ac52c24d2cb0037a2b284bb19e296))
+
 ## [1.0.2](https://github.com/cujarrett/spellcheckme/compare/v1.0.1...v1.0.2) (2021-11-28)
 
 
