@@ -17,16 +17,13 @@ All notable changes to this project will be documented in this file. This projec
 
 # [1.0.0](https://github.com/cujarrett/spellcheckme/compare/v0.7.0...v1.0.0) (2021-11-28)
 
-
-### Bug Fixes
-
-* semantic-release esm syntax ([#120](https://github.com/cujarrett/spellcheckme/issues/120)) ([6c19e8d](https://github.com/cujarrett/spellcheckme/commit/6c19e8d0ba5e01e3da9401764ac80d91804ebd8f))
-
-
 ### Features
 
 * Migrate from CommonJS to ESM ([#119](https://github.com/cujarrett/spellcheckme/issues/119)) ([b667c96](https://github.com/cujarrett/spellcheckme/commit/b667c962425eced3a5479da0ee8b4443c2ffc242))
 
+### Bug Fixes
+
+* semantic-release esm syntax ([#120](https://github.com/cujarrett/spellcheckme/issues/120)) ([6c19e8d](https://github.com/cujarrett/spellcheckme/commit/6c19e8d0ba5e01e3da9401764ac80d91804ebd8f))
 
 ### BREAKING CHANGES
 
