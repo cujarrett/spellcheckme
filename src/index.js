@@ -12,7 +12,7 @@ const app = async () => {
   const green = "00c853"
   const orange = "ff9800"
 
-  const pkg = await JSON.parse(await fs.readFile("package.json"))
+  const pkg = await JSON.parse(await fs.readFile("./package.json"))
 
   yargs(hideBin(process.argv))
     .wrap(null)
