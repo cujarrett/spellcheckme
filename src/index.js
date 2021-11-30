@@ -4,18 +4,21 @@ import yargs from "yargs"
 import { hideBin } from "yargs/helpers"
 import { getInput } from "./read-input.js"
 import { search } from "./search.js"
-import { readPackageUp } from "read-pkg-up"
+import { createRequire } from "module"
 import updateNotifier from "update-notifier"
 
 const app = async () => {
+  // Hack, ESM's JSON support is meh in 2021
+  const require = createRequire(import.meta.url)
+  const pkg = require("../package.json")
+
   const red = "f44336"
   const green = "00c853"
   const orange = "ff9800"
-  const { packageJson } = await readPackageUp()
 
   yargs(hideBin(process.argv))
     .wrap(null)
-    .version(packageJson.version)
+    .version(pkg.version)
     .alias("v", "version")
     .alias("h", "help")
     .showHelpOnFail(true)
@@ -28,8 +31,8 @@ const app = async () => {
     .parse()
 
   // check if a new version of spellcheckme is available and print an update notification
-  const notifier = updateNotifier({ pkg: packageJson })
-  if (notifier.update && notifier.update.latest !== packageJson.version) {
+  const notifier = updateNotifier({ pkg })
+  if (notifier.update && notifier.update.latest !== pkg.version) {
     notifier.notify({ isGlobal: true })
   }
 
