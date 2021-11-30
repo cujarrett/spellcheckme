@@ -7,7 +7,7 @@
   "type": "module",
   "exports": "./index.js",
   "engines": {
-    "node": ">=12"
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
   },
   "main": "./src/index.js",
   "bin": "./src/index.js",
@@ -38,6 +38,7 @@
   "dependencies": {
     "chalk": "~5.0.0",
     "puppeteer": "~12.0.0",
+    "read-pkg-up": "~9.0.0",
     "update-notifier": "~5.1.0",
     "yargs": "~17.2.1"
   },
