@@ -16,5 +16,6 @@
     ["@semantic-release/exec", {
       "verifyReleaseCmd": "echo \"VERSION=${nextRelease.version}\" > RELEASE.env"
     }]
-  ]
+  ],
+  "debug": true
 }
