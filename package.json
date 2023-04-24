@@ -37,7 +37,7 @@
   ],
   "dependencies": {
     "chalk": "~5.1.2",
-    "puppeteer": "~19.3.0",
+    "puppeteer": "~19.11.0",
     "update-notifier": "~6.0.2",
     "yargs": "~17.6.2"
   },
