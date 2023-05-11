@@ -8,7 +8,8 @@ export const search = async (query) => {
     }
   }
 
-  const browser = await puppeteer.launch({ args: ["–no-sandbox", "–disable-setuid-sandbox"] })
+  const browser = await puppeteer.launch({ headless: "new" })
+
   const page = await browser.newPage()
   await page.goto(`https://www.google.com/search?q=${query}`)
   await page.title()
