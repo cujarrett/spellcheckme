@@ -1,6 +1,6 @@
 {
   "name": "spellcheckme",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "author": "Matt Jarrett",
   "description": "Spellcheck CLI to quickly check the spelling of a word or two using the power of Google's search engine via a headless browser.",
